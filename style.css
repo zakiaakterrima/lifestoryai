@@ -71,25 +71,29 @@ gap:20px;
 padding:50px 20px;
 }
 
-.card{
+.card,
+.story-card,
+.featured-card{
 background:white;
+border-radius:20px;
 padding:25px;
-border-radius:18px;
-box-shadow:0 8px 20px rgba(0,0,0,.1);
-text-align:center;
+box-shadow:0 15px 35px rgba(0,0,0,.12);
 transition:.3s;
 }
 
-.card:hover{
-transform:translateY(-8px);
+.card:hover,
+.story-card:hover,
+.featured-card:hover{
+transform:translateY(-10px) scale(1.03);
 }
 
 footer{
-  
 background:#111827;
 color:white;
 text-align:center;
-padding:25px;
+padding:40px 20px;
+margin-top:50px;
+font-size:18px;
 }
 
 @media(max-width:768px){
