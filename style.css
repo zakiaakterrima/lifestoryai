@@ -112,3 +112,130 @@ transition:.3s;
 transform:translateY(-5px);
 box-shadow:0 10px 20px rgba(0,0,0,.2);
 }
+/* ===== LifeStory AI - Part 2 ===== */
+
+/* Statistics */
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+gap:20px;
+padding:50px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.stat-card{
+background:linear-gradient(135deg,#2563eb,#7c3aed);
+color:#fff;
+padding:25px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 20px rgba(0,0,0,.15);
+transition:.3s;
+}
+
+.stat-card:hover{
+transform:translateY(-8px);
+}
+
+.stat-card h2{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.stat-card p{
+font-size:18px;
+}
+
+/* Section Title */
+
+section h2{
+text-align:center;
+font-size:38px;
+margin:40px 0 25px;
+color:#222;
+}
+
+/* Story Categories */
+
+.categories{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+padding:20px;
+max-width:1100px;
+margin:auto;
+}
+
+.card{
+background:#fff;
+border-radius:20px;
+padding:25px;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin-top:12px;
+font-size:22px;
+color:#222;
+}
+
+.card p{
+margin-top:10px;
+color:#666;
+}
+
+/* Trending Stories */
+
+.story-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+padding:20px;
+max-width:1100px;
+margin:auto;
+}
+
+.story-card{
+background:#fff;
+padding:25px;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.story-card:hover{
+transform:translateY(-8px);
+}
+
+.story-card h3{
+font-size:24px;
+margin-bottom:12px;
+color:#222;
+}
+
+.story-card p{
+color:#666;
+margin-bottom:20px;
+}
+
+.story-card button{
+background:#2563eb;
+color:#fff;
+border:none;
+padding:12px 25px;
+border-radius:30px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.story-card button:hover{
+background:#1d4ed8;
+}
