@@ -296,3 +296,24 @@ resize:none;
 .ai-generator button{
 margin-top:20px;
 }
+.story-page{
+max-width:800px;
+margin:auto;
+padding:40px 20px;
+}
+
+.story-actions{
+margin-top:30px;
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.story-actions button{
+padding:12px 20px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+}
