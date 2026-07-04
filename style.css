@@ -350,3 +350,29 @@ border:none;
 border-radius:8px;
 cursor:pointer;
 }
+.write-story{
+max-width:800px;
+margin:50px auto;
+padding:20px;
+}
+
+.write-story input,
+.write-story select,
+.write-story textarea{
+width:100%;
+padding:15px;
+margin:15px 0;
+border:1px solid #ccc;
+border-radius:12px;
+font-size:16px;
+}
+
+.write-story textarea{
+height:250px;
+resize:vertical;
+}
+
+.write-story button{
+margin-right:10px;
+margin-top:10px;
+}
