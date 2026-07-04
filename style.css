@@ -239,3 +239,68 @@ font-weight:bold;
 .story-card button:hover{
 background:#1d4ed8;
 }
+/* ===== LifeStory AI - Part 3 ===== */
+
+/* AI Story Generator */
+
+.ai-generator{
+max-width:900px;
+margin:60px auto;
+padding:30px;
+background:#ffffff;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.ai-generator p{
+margin:15px 0;
+color:#555;
+font-size:18px;
+}
+
+.ai-generator textarea{
+width:100%;
+height:180px;
+padding:15px;
+border:1px solid #ddd;
+border-radius:15px;
+font-size:16px;
+resize:vertical;
+margin-top:15px;
+}
+
+.ai-generator button{
+margin-top:20px;
+background:#2563eb;
+color:#fff;
+border:none;
+padding:15px 35px;
+border-radius:30px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+.ai-generator button:hover{
+background:#1d4ed8;
+}
+
+.story-output{
+margin-top:25px;
+background:#f8fafc;
+padding:20px;
+border-radius:15px;
+text-align:left;
+}
+
+/* Story Page */
+
+.story-page{
+max-width:850px;
+margin:50px auto;
+background:#fff;
+padding:30px;
+border-radius:20px;
+box-shadow
