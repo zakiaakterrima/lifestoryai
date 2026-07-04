@@ -11,13 +11,16 @@ color:#222;
 }
 
 .header{
+position:sticky;
+top:0;
+z-index:1000;
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px;
-background:#2563eb;
+background:rgba(37,99,235,.9);
+backdrop-filter:blur(10px);
 color:white;
-flex-wrap:wrap;
 }
 
 .logo{
@@ -383,4 +386,34 @@ resize:vertical;
 .write-story button{
 margin-right:10px;
 margin-top:10px;
+}
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+padding:50px 20px;
+background:#ffffff;
+}
+
+.stat-card{
+background:linear-gradient(135deg,#2563eb,#7c3aed);
+color:white;
+padding:25px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+transition:.3s;
+}
+
+.stat-card:hover{
+transform:translateY(-8px);
+}
+
+.stat-card h2{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.stat-card p{
+font-size:18px;
 }
