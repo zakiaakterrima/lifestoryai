@@ -37,3 +37,10 @@ Once upon a time, ${prompt}. The journey was full of struggles, hope and courage
 };
 
 }
+const darkBtn = document.getElementById("darkModeBtn");
+
+if (darkBtn) {
+  darkBtn.onclick = function () {
+    document.body.classList.toggle("dark");
+  };
+}
