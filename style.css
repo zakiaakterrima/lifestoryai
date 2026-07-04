@@ -81,6 +81,7 @@ transform:translateY(-8px);
 }
 
 footer{
+  
 background:#111827;
 color:white;
 text-align:center;
@@ -113,4 +114,51 @@ margin:10px 0;
 
 .card p{
 font-size:14px;
+}
+.hero{
+background:linear-gradient(135deg,#2563eb,#7c3aed);
+padding:100px 20px;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero h2{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:18px;
+line-height:1.8;
+}
+
+.hero-buttons{
+margin-top:30px;
+}
+
+.hero-buttons button{
+margin:10px;
+padding:15px 30px;
+border:none;
+border-radius:30px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.hero-buttons button:first-child{
+background:#fff;
+color:#2563eb;
+}
+
+.hero-buttons button:last-child{
+background:#111827;
+color:#fff;
 }
