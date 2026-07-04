@@ -304,3 +304,155 @@ background:#fff;
 padding:30px;
 border-radius:20px;
 box-shadow
+/* ===== LifeStory AI - Part 4 ===== */
+
+/* Buttons */
+
+button{
+background:#2563eb;
+color:#fff;
+border:none;
+padding:12px 25px;
+border-radius:30px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+transition:all .3s ease;
+}
+
+button:hover{
+background:#1d4ed8;
+transform:translateY(-3px);
+box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+/* Bottom Navigation */
+
+.bottom-nav{
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+height:65px;
+background:#ffffff;
+display:flex;
+justify-content:space-around;
+align-items:center;
+box-shadow:0 -4px 15px rgba(0,0,0,.12);
+z-index:999;
+}
+
+.bottom-nav a{
+text-decoration:none;
+color:#2563eb;
+font-size:14px;
+font-weight:bold;
+text-align:center;
+}
+
+body{
+padding-bottom:80px;
+}
+
+/* Dark Mode */
+
+.dark{
+background:#111827;
+color:#fff;
+}
+
+.dark .card,
+.dark .story-card,
+.dark .stat-card,
+.dark .ai-generator,
+.dark .story-page,
+.dark .write-story,
+.dark .login-box{
+background:#1f2937;
+color:#fff;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p{
+color:#fff;
+}
+
+.dark input,
+.dark textarea,
+.dark select{
+background:#374151;
+color:#fff;
+border:1px solid #555;
+}
+
+.dark footer{
+background:#000;
+}
+
+/* Animation */
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+section{
+animation:fadeUp .8s ease;
+}
+
+/* Mobile Responsive */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:34px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.logo{
+font-size:28px;
+}
+
+nav{
+flex-direction:column;
+gap:10px;
+}
+
+section h2{
+font-size:28px;
+}
+
+.story-grid,
+.categories,
+.stats{
+grid-template-columns:1fr;
+}
+
+.story-page,
+.write-story,
+.ai-generator,
+.login-box{
+margin:20px;
+padding:20px;
+}
+
+button{
+width:100%;
+}
+
+.story-actions{
+flex-direction:column;
+}
+
+}
