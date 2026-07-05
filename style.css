@@ -303,7 +303,8 @@ margin:50px auto;
 background:#fff;
 padding:30px;
 border-radius:20px;
-box-shadow
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+}-shadow
 /* ===== LifeStory AI - Part 4 ===== */
 
 /* Buttons */
@@ -455,4 +456,55 @@ width:100%;
 flex-direction:column;
 }
 
+}
+.hero-content{
+max-width:900px;
+margin:auto;
+}
+
+.category-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.category-card{
+background:#fff;
+padding:25px;
+border-radius:20px;
+text-align:center;
+font-size:22px;
+font-weight:bold;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.category-card:hover{
+transform:translateY(-8px);
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:20px;
+max-width:1100px;
+margin:auto;
+}
+
+.featured-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+padding:20px;
+max-width:1100px;
+margin:auto;
+}
+
+.featured-card{
+background:#fff;
+padding:25px;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
 }
